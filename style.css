@@ -94,11 +94,12 @@ header .more{
     margin: 0 20px;
     color: white;
     font: 16px;
+    align-items: center;
     font-weight: 500;
 }
 header .more svg{
  margin-left: 8px;
- rotate: -98deg;
+ rotate: -90deg;
 }
 header .cart{
     height: 100%;
@@ -232,4 +233,23 @@ opacity: 0.6;
 margin-top: 12px;
 font-weight: 300;
 font-size:14px;
+}
+/* section 5 */
+.section5{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section5 img{
+    width: 33%;
+}
+footer{
+   
+    margin-top: 26px;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 25px;
+    color: #878787;
 }
